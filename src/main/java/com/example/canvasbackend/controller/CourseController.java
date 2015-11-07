@@ -38,6 +38,10 @@ public class CourseController {
 //////
     ////////////////////
 
+
+    ////////
+    //// hey hit hhhhhh
+
     @GetMapping("/published")
     public ResponseEntity<List<Course>> getPublishedCourses() {
         List<Course> courses = courseService.getPublishedCourses();
