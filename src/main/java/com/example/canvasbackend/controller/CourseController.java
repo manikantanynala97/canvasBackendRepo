@@ -25,7 +25,9 @@ public class CourseController {
         this.courseService = courseService;
         this.enrollmentService = enrollmentService;
     }
-// MMMMMMMMM
+/// hhhhhhhhhhhhhhhhhhhhhhhhh
+
+    //////  hhhhhhhh
 
     @GetMapping("/all")
     public ResponseEntity<List<Course>> getAllCourses() {
