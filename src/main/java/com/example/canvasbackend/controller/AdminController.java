@@ -70,7 +70,7 @@ public class AdminController {
         return ResponseEntity.accepted().body("Successfully assigned course to faculty");
     }
 
-    // Changes made by Manikanta
+    // Changes made by Venkata Surya Manikanta Nynala
 
     @GetMapping("/courses/faculty/{facultyId}/semester/{semester}")
     public List<CourseDao> getCoursesByFacultyAndSemester(@PathVariable("facultyId") Long facultyId,
